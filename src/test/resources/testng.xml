@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="TruleagueProspect Automation Suite">
+	<test name="TruleagueProspect Tests ">
+		<classes>
+			<class name="com.truleagueprospect.testcases.Register" />
+			<class name="com.truleagueprospect.testcases.Login" />
+
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

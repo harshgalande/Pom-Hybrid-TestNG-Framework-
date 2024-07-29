@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.truleagueprospect.testcases.Login">
+        <methods>
+          <include name="verifyLoginIntoApplicationClickingLogoutAndBrowsingBackButton"/>
+          <include name="pageHeadingTititle"/>
+          <include name="verifyLoginIntoApplicationUsingCapsLock"/>
+          <include name="verifyForgotPasswordLinkAvailableandRedirecting"/>
+          <include name="verifyLoginIntoApplicationGoingFromViewProfile"/>
+          <include name="verifyLoginWithoutProvidingCredentials"/>
+          <include name="verifyWorkingOfEyeIcon"/>
+          <include name="veriyLoginPageCrossButtonWokingOrNot"/>
+          <include name="verifyLoginRedirectionToSignUpPage"/>
+          <include name="tearDown"/>
+          <include name="verifyLoginWithValidEmailAndInValidPassword"/>
+          <include name="verifyEmailAndPasswordTextFieldsLoginHavePlaceHolderText"/>
+          <include name="verifyThePasswordIsNotVisibleInPageSource"/>
+          <include name="verifyNavagatingLoginPageFromChatWindow"/>
+          <include name="verifyLoginWithValidCredenetials" invocation-numbers="0 1 2 3"/>
+          <include name="verifyLoginIntoApplicationClickingBrowsingBackButton"/>
+          <include name="verifyLoginWithInValidEmailAndValidPassword"/>
+          <include name="verifyLoginWithInvalidCreadentials"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.truleagueprospect.testcases.Login -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
